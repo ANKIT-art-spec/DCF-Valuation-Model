@@ -26,7 +26,7 @@ This is a self-contained equity valuation model. It takes Tata Motors' historica
 | 6 | **Intrinsic growth** | Calculates ROIC (Return on Invested Capital), Reinvestment Rate, and the resulting **Intrinsic Growth Rate**, which feeds the DCF's near-term growth assumption. |
 | 7 | **Beta comp** / **DATA1** | Peer company data (Debt, Debt/Equity, Market Cap) for Cummins India, Hitachi Energy, CG Power, ABB, Polycab, used to derive an industry Beta. |
 | 8 | **WACC** | Full cost-of-capital build: peer-based unlevered/relevered Beta, Cost of Debt, Cost of Equity (CAPM), capital structure (current vs. target), and the final **Weighted Average Cost of Capital**. |
-| 9 | **Rm** | Historical Nifty 50 annual returns (2000–2025) used to compute the **Return on Market / Equity Risk Premium** input for Cost of Equity in the WACC sheet. |
+| 9 | **Rm** | Historical Nifty 50 annual returns (2000–2022) used to compute the **Return on Market / Equity Risk Premium** input for Cost of Equity in the WACC sheet. |
 | 10 | **DCF** | The valuation engine — projects EBIT, tax-effects it, deducts reinvestment to get Free Cash Flow to Firm (FCFF), discounts each year at WACC (mid-year convention), computes Terminal Value, and rolls everything up to **Enterprise Value → Equity Value → Value per Share**, compared to the current market share price. |
 
 > Sheets named with a trailing **`>`** (`DCF>`, `Financials>`, `Data>`) are empty section-divider/navigation tabs used to visually group the sheets that follow them — they contain no data.
